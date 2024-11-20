@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tag yang diperlukan untuk karakter dan tampilan responsif -->
+    <meta charset="utf-8" />
+    <meta 
+      name="viewport" 
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" 
+    />
+
+    <!-- Menghubungkan Bootstrap CSS untuk styling bawaan -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Menghubungkan Font Awesome untuk ikon -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Landing Page</title>
+    <!-- Menghubungkan file CSS eksternal untuk gaya khusus -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Menghubungkan jQuery, Popper.js, dan Bootstrap JS untuk interaktivitas -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <!-- Brand atau logo di Navbar -->
+        <a class="navbar-brand" href="#">Zio</a>
+        <!-- Tombol toggle untuk tampilan mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Menu navigasi di dalam navbar -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item active nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item tombol btn btn-primary" href="#">JOIN US</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Awal Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">
+          Get work done <span>faster</span><br /> and <span>better</span> with us
+        </h1>
+        <!-- Tombol menuju halaman Our Work -->
+        <a href="#" class="btn btn-primary tombol">Our Work</a>
+      </div>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Awal Panel Informasi -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-10 info-panel">
+          <div class="row">
+            <!-- Panel pertama: Informasi waktu layanan -->
+            <div class="col-lg">
+              <img src="img/employee.png" alt="Employee" class="float-left" />
+              <h4>24 Hours</h4>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <!-- Panel kedua: Kualitas resolusi tinggi -->
+            <div class="col-lg">
+              <img src="img/hires.png" alt="Hires" class="float-left" />
+              <h4>High-Res</h4>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <!-- Panel ketiga: Fitur keamanan -->
+            <div class="col-lg">
+              <img src="img/security.png" alt="Security" class="float-left" />
+              <h4>Security</h4>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Panel Informasi -->
+
+    <!-- Awal Workingspace Section -->
+    <div class="row workingspace">
+      <div class="col-lg-6">
+        <!-- Gambar untuk Workingspace -->
+        <img src="img/workingspace.png" alt="Workingspace" class="img-fluid" />
+      </div>
+      <div class="col-lg-5">
+        <h3>You <span>work</span> like at <span>home</span></h3>
+        <p>Bekerja dengan suasana hati lebih asik dan mempelajari hal baru setiap harinya</p>
+        <!-- Tombol menuju halaman galeri -->
+        <a href="#" class="btn btn-primary tombol">Gallery</a>
+      </div>
+    </div>
+    <!-- Akhir Workingspace Section -->
+
+    <!-- Awal Carousel untuk Slideshow gambar -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide pertama -->
+            <div class="carousel-item active">
+                <img src="img1.jpeg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <!-- Slide kedua -->
+            <div class="carousel-item">
+                <img src="img2.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <!-- Slide ketiga -->
+            <div class="carousel-item">
+                <img src="img3.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+        </div>
+        <!-- Tombol navigasi ke slide sebelumnya -->
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <!-- Tombol navigasi ke slide berikutnya -->
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- Akhir Carousel -->
+
+    <!-- Awal Testimonial Section -->
+    <div class="testimonial">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <!-- Teks testimonial -->
+          <h5>
+            "Bekerja dengan suasana hati lebih asik dan mempelajari hal baru setiap harinya."
+          </h5>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 d-flex justify-content-center">
+          <!-- Foto pengguna testimonial -->
+          <figure class="figure">
+            <img src="img/img1.png" class="figure-img img-fluid rounded-circle" alt="Placeholder image" />
+          </figure>
+          <!-- Foto utama dengan informasi pengguna -->
+          <figure class="figure">
+            <img src="img/img2.png" class="figure-img img-fluid rounded-circle img-utama" alt="Placeholder image" />
+            <figcaption class="figure-caption">
+              <h5>Sunny Y</h5>
+              <p>Designer</p>
+            </figcaption>
+          </figure>
+          <!-- Foto tambahan testimonial -->
+          <figure class="figure">
+            <img src="img3.jpg" class="figure-img img-fluid rounded-circle" alt="Placeholder image" />
+          </figure>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Testimonial Section -->
+    <h1>Tambah Komentar</h1>
+    <form method="POST">
+        <textarea name="komentar" required></textarea><br>
+        <button type="submit">Kirim Komentar</button>
+    </form>
+
+    <h2>Komentar:</h2>
+    <!-- Awal Footer -->
+    <div class="row footer">
+      <div class="col text-center">
+        <p>2024 All Right Reserved by Zio</p>
+      </div>
+    </div>
+    <!-- Akhir Footer -->
+  </body>
+</html>
